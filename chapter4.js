@@ -19,14 +19,14 @@ let song;
 let gover_song;
 
 function preload(){
-  song = loadSound('./song/chapter4/chapter4.mp3');
-  gover_song=loadSound("./song/chapter4/gameover.wav");
+  //song = loadSound('./song/chapter4/chapter4.mp3');
+  //gover_song=loadSound("./song/chapter4/gameover.wav");
 }
 
 function setup() {
   createCanvas(600, 400);
   c = color(random(255),random(128),random(255));
-  song.play();
+  //song.play();
 }
 
 function draw() {
@@ -54,17 +54,17 @@ function draw() {
     fill(c);
     rect(100,100,q_w,50);
     
-    if(!song.isPlaying()){
-      song.play();
-    }
+    //if(!song.isPlaying()){
+    //  song.play();
+    //}
     
   }else{
-    if(song.isPlaying()){
-      song.stop();
-    }
-    if(!gover_song.isPlaying()){
-      gover_song.play();
-    }
+    //if(song.isPlaying()){
+    //  song.stop();
+    //}
+    //if(!gover_song.isPlaying()){
+    //  gover_song.play();
+    //}
     background(0);
     textAlign(CENTER)
     textSize(80);
