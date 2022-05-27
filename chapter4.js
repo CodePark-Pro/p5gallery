@@ -19,8 +19,8 @@ let song;
 let gover_song;
 
 function preload(){
-  song = loadSound('./song/chapter4.mp3');
-  gover_song=loadSound("./song/gameover.wav");
+  song = loadSound('./song/chapter4/chapter4.mp3');
+  gover_song=loadSound("./song/chapter4/gameover.wav");
 }
 
 function setup() {
