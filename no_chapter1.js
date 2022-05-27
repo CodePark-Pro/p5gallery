@@ -20,7 +20,7 @@ function draw() {
   let y=sin(radi)*(draw_cnt+1)*30;
   
   translate(width/2,height/2);
-  circle(x,y,50*(draw_cnt+1));
+  ellipse(x,y,50*(draw_cnt+1),50*(draw_cnt+1));
   
   circle_cnt+=1;
   if(circle_cnt == circle_no){
